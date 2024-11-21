@@ -34,28 +34,28 @@ namespace Polinomios
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             lblPolinomioR.Text = "";
-            lblPolinomioRR.Text = ""; // Limpiar resultados anteriores
+            lblPolinomioRR.Text = "";
 
             if (cmbOperacion.SelectedIndex >= 0)
             {
                 Polinomio cociente, residuo;
                 switch (cmbOperacion.SelectedIndex)
                 {
-                    case 0: // Suma
+                    case 0:
                         Polinomio.Sumar(p1, p2).Mostrar(lblPolinomioR);
                         break;
-                    case 1: // Resta
+                    case 1:
                         Polinomio.Restar(p1, p2).Mostrar(lblPolinomioR);
                         break;
-                    case 2: // Multiplicación
+                    case 2:
                         Polinomio.Multiplicar(p1, p2).Mostrar(lblPolinomioR);
                         break;
-                    case 3: // División
+                    case 3:
                         p1.Dividir(p2, out cociente, out residuo);
                         cociente.Mostrar(lblPolinomioR);
                         residuo.Mostrar(lblPolinomioRR);
                         break;
-                    case 4: // Derivada
+                    case 4:
                         p1.Derivar().Mostrar(lblPolinomioR);
                         break;
                 }

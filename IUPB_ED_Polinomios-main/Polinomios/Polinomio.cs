@@ -1,5 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace Polinomios
 {
@@ -34,7 +33,7 @@ namespace Polinomios
                         if (monomio.Exponente == apuntador.Exponente)
                         {
                             apuntador.Coeficiente += monomio.Coeficiente;
-                            if (Math.Abs(apuntador.Coeficiente) < 1e-10) // Eliminar términos con coeficiente cero
+                            if (Math.Abs(apuntador.Coeficiente) < 1e-10)
                             {
                                 if (predecesor == null)
                                 {
@@ -64,7 +63,7 @@ namespace Polinomios
                         predecesor = apuntador;
                         apuntador = apuntador.Siguiente;
                     }
-                    predecesor.Siguiente = monomio; // Insertar al final
+                    predecesor.Siguiente = monomio;
                 }
             }
         }
@@ -90,6 +89,7 @@ namespace Polinomios
                 apuntador = apuntador.Siguiente;
             }
 
+            lbl.Font = new System.Drawing.Font("Arial", 16);
             lbl.Text = resultado;
         }
 
@@ -131,7 +131,7 @@ namespace Polinomios
                 else
                 {
                     double coeficienteSumado = apuntador1.Coeficiente + apuntador2.Coeficiente;
-                    if (Math.Abs(coeficienteSumado) > 1e-10) // Solo agregar si el coeficiente no es cero
+                    if (Math.Abs(coeficienteSumado) > 1e-10)
                     {
                         resultado.Agregar(new Monomio(coeficienteSumado, apuntador1.Exponente));
                     }
@@ -164,7 +164,7 @@ namespace Polinomios
                 else
                 {
                     double coeficienteRestado = apuntador1.Coeficiente - apuntador2.Coeficiente;
-                    if (Math.Abs(coeficienteRestado) > 1e-10) // Solo agregar si el coeficiente no es cero
+                    if (Math.Abs(coeficienteRestado) > 1e-10)
                     {
                         resultado.Agregar(new Monomio(coeficienteRestado, apuntador1.Exponente));
                     }
@@ -201,7 +201,7 @@ namespace Polinomios
         {
             cociente = new Polinomio();
             residuo = new Polinomio();
-            residuo = this; // Inicialmente, el residuo es el dividendo
+            residuo = this;
 
             while (residuo.GetCabeza() != null && residuo.GetCabeza().Exponente >= divisor.GetCabeza().Exponente)
             {
@@ -210,17 +210,15 @@ namespace Polinomios
                 Monomio monomioCociente = new Monomio(coeficienteCociente, exponenteCociente);
                 cociente.Agregar(monomioCociente);
 
-                // Restar el divisor multiplicado por el monomioCociente del residuo
                 Monomio apuntadorDivisor = divisor.GetCabeza();
                 while (apuntadorDivisor != null)
                 {
                     double nuevoCoeficiente = apuntadorDivisor.Coeficiente * coeficienteCociente;
                     int nuevoExponente = apuntadorDivisor.Exponente;
-                    residuo.Agregar(new Monomio(-nuevoCoeficiente, nuevoExponente)); // Restar directamente
+                    residuo.Agregar(new Monomio(-nuevoCoeficiente, nuevoExponente));
                     apuntadorDivisor = apuntadorDivisor.Siguiente;
                 }
 
-                // Limpiar los términos cero en el residuo
                 residuo = LimpiarTerminosCero(residuo);
             }
         }
@@ -231,7 +229,7 @@ namespace Polinomios
             Monomio apuntador = polinomio.GetCabeza();
             while (apuntador != null)
             {
-                if (Math.Abs(apuntador.Coeficiente) > 1e-10) // Solo agregar si el coeficiente no es cero
+                if (Math.Abs(apuntador.Coeficiente) > 1e-10)
                 {
                     resultado.Agregar(new Monomio(apuntador.Coeficiente, apuntador.Exponente));
                 }

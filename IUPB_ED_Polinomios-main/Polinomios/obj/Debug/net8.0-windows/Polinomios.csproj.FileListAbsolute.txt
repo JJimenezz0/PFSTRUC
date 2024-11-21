@@ -14,3 +14,19 @@ C:\Users\juanj\Downloads\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-win
 C:\Users\juanj\Downloads\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.pdb
 C:\Users\juanj\Downloads\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.genruntimeconfig.cache
 C:\Users\juanj\Downloads\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\ref\Polinomios.dll
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\bin\Debug\net8.0-windows\Polinomios.exe
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\bin\Debug\net8.0-windows\Polinomios.deps.json
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\bin\Debug\net8.0-windows\Polinomios.runtimeconfig.json
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\bin\Debug\net8.0-windows\Polinomios.dll
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\bin\Debug\net8.0-windows\Polinomios.pdb
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.FrmPolinomios.resources
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.csproj.GenerateResource.cache
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.AssemblyInfoInputs.cache
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.AssemblyInfo.cs
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.csproj.CoreCompileInputs.cache
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.dll
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\refint\Polinomios.dll
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.pdb
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\Polinomios.genruntimeconfig.cache
+C:\Users\juanj\Downloads\Preview Images\IUPB_ED_Polinomios-main\Polinomios\obj\Debug\net8.0-windows\ref\Polinomios.dll

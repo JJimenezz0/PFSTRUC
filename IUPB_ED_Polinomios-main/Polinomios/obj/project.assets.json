@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanj\\Downloads\\IUPB_ED_Polinomios-main\\Polinomios\\Polinomios.csproj",
+      "projectUniqueName": "C:\\Users\\juanj\\Downloads\\Preview Images\\IUPB_ED_Polinomios-main\\Polinomios\\Polinomios.csproj",
       "projectName": "Polinomios",
-      "projectPath": "C:\\Users\\juanj\\Downloads\\IUPB_ED_Polinomios-main\\Polinomios\\Polinomios.csproj",
+      "projectPath": "C:\\Users\\juanj\\Downloads\\Preview Images\\IUPB_ED_Polinomios-main\\Polinomios\\Polinomios.csproj",
       "packagesPath": "C:\\Users\\juanj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanj\\Downloads\\IUPB_ED_Polinomios-main\\Polinomios\\obj\\",
+      "outputPath": "C:\\Users\\juanj\\Downloads\\Preview Images\\IUPB_ED_Polinomios-main\\Polinomios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
